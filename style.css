@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f9fafc;
+    color: #333;
+  }
+  header {
+    text-align: center;
+    padding: 1rem 1rem;
+    background: linear-gradient(to right, #8e44ad, #c0392b);
+    color: white;
+  }
+  .profile-img {
+    width: 230px;
+    height: 230px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 1rem;
+    border: 3px solid #fff;
+  }
+  .highlight {
+    color: #ffd700;
+  }
+  .btn {
+    background-color: #ff6f61;
+    color: white;
+    padding: 0.6rem 1.2rem;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 1rem;
+  }
+  nav {
+    background-color: #222;
+  }
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+  }
+  nav li {
+    margin: 0 1.5rem;
+  }
+  nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  section {
+    padding: 3rem 2rem;
+    max-width: 1000px;
+    margin: auto;
+  }
+  .project-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+  }
+  .project-card {
+    background: white;
+    border-radius: 8px;
+    padding: 1rem;
+    width: calc(50% - 1rem);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  .project-card img {
+    width: 60%;
+    border-radius: 6px;
+  }
+  .skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  .skills-list li {
+    background: #f0c419;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    list-style: none;
+    font-weight: 500;
+  }
+  footer {
+    text-align: center;
+    padding: 2rem;
+    background-color: #eee;
+  }
+  
